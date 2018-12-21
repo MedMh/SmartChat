@@ -1,0 +1,21 @@
+{% extends 'chatting/base.html' %}
+
+{% block body %}
+
+    <div class="login-card"><i class="fa fa-reddit-alien" id="loginLogo"></i>
+        <p class="profile-name-card">Smart Chat</p>
+        <form action="{% url 'register' %}" method="post" class="form-signin">
+        {% csrf_token %}
+        <span class="reauth-email"> </span>
+            <input class="form-control" type="text" required="" placeholder="First name" name="fname" autofocus="" id="inputEmail">
+            <input class="form-control" type="text" required="" placeholder="Last name" name="lname" autofocus="" id="inputEmail">
+            <input class="form-control" type="text" required="" placeholder="NickName" name="nname" autofocus="" id="inputEmail">
+            <input class="form-control" type="email" required="" placeholder="Email address" name="email" autofocus="" id="inputEmail">
+            <input class="form-control" type="password" required="" placeholder="Password" name="pwd" id="inputPassword">
+            <input class="form-control" type="password" required="" placeholder="confirm password" name="pwd" id="inputPassword">
+            <div class="checkbox"></div>
+            <button class="btn btn-primary btn-block btn-lg btn-signin" type="submit">Sign up</button>
+        </form>
+        <div id="signLinkDiv"><a href="{% url 'index' %}" id="linksign" class="forgot-password">Have an account? Sign in here</a></div>
+    </div>
+  {% endblock %}

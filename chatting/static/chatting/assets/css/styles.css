@@ -1,0 +1,160 @@
+i#logoutIc.glyphicon.glyphicon-log-out{
+  font-size:20px;
+  color:white;
+}
+
+a.navbar-brand.navbar-link{
+  vertical-align:middle;
+}
+
+div#mainRow.row{
+  margin:auto;
+}
+
+div#secRow.row{
+  margin:auto;
+}
+
+div#mainDiv{
+  height:100%;
+}
+
+div#convDiv{
+  height:490px;
+  overflow-y:auto;
+  border-radius:5px;
+  box-shadow:2px 2px #d6d7d7;
+}
+
+div#dashDiv.col-md-4{
+}
+
+ul#dashNav.nav.nav-tabs.nav-justified{
+  text-align:center;
+}
+
+i#dashNavIc.glyphicon.glyphicon-user{
+  font-size:25px;
+}
+
+i#dashNavIc.fa.fa-comments{
+  font-size:25px;
+}
+
+i#dashNavIc.fa.fa-user{
+  font-size:25px;
+}
+
+i#logo.fa.fa-reddit-alien{
+  font-size:30px;
+  color:white;
+}
+
+i#dashNavIc.material-icons{
+  font-size:25px;
+  color:white;
+}
+
+button#submitBtn.btn.btn-primary{
+  width:100%;
+  height:70px;
+  background:#004354;
+}
+
+i#dashNavIc.fa.fa-globe{
+  font-size:30px;
+  color:white;
+}
+
+textarea#txtArea.form-control{
+  height:70px;
+}
+
+div#dataDiv{
+  border:1px solid #f6f7f7;
+  height:436px;
+  border-radius:5px;
+  background-color:#f6f7f7;
+}
+
+.row{
+  padding:5px;
+}
+
+li.active{
+  background:#004354;
+}
+
+a#dashIt{
+  background:#004354;
+  border-radius:5px;
+}
+
+a#dashIt2{
+  background:#004354;
+}
+
+a#dashIt3{
+  background:#004354;
+}
+
+nav.navbar.navbar-default{
+  background:#004354;
+  border-bottom-right-radius:5px;
+  border-bottom-left-radius:5px;
+}
+
+li.active{
+  border-radius:5px;
+}
+
+div#msgDis{
+  margin:5px;
+  padding:5px;
+  border:1px solid #f6f7f7;
+  border-bottom-right-radius:10px;
+  border-top-left-radius:10px;
+  border-top-right-radius:10px;
+  background-color:#f6f7f7;
+}
+
+h3#userName{
+  color:#004354;
+  font-size:18px;
+}
+
+p#msgBody{
+  font-family:georgia;
+  font-size:14px;
+}
+
+i#loginLogo.fa.fa-reddit-alien{
+  text-align:center;
+  display:block;
+  font-size:100px;
+  color:#004354;
+}
+
+div#logRow.row{
+  margin:auto;
+}
+
+div#styleDiv.col-md-6{
+  border:1px solid #004354;
+}
+
+body#logBdy{
+}
+
+div#signLinkDiv{
+  display:block;
+}
+
+a.forgot-password{
+  text-align:center;
+}
+
+a#linksign.forgot-password{
+  display:block;
+}
+
